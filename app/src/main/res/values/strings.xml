@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Android Developers First Task</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="entry_string">Start\nyour\nadventure</string>
+    <string name="log_in">Log in</string>
+    <string name="first_time_here">First time here? Sign up</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="new_account">New\nAccount</string>
+    <string name="_1_2_nsteps">1 /2\nsteps</string>
+    <string name="next">Next</string>
+    <string name="not_the_first_time_here_log_in">Not the first time here? Log in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="name">NAME</string>
+    <string name="email">EMAIL</string>
+    <string name="uppercase_password">PASSWORD</string>
+    <string name="_2_2_nsteps">2 /2\nsteps</string>
+    <string name="home">Home</string>
+    <string name="share">Share</string>
+    <string name="allow_coments">Allow comments</string>
+    <string name="profile">Profile</string>
+    <string name="bio">Bio:</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="profile_photo_url">https://i.pinimg.com/originals/36/60/58/366058cd421e6a981e50c6f800abbbd0.png</string>
+    <string name="description">Description</string>
+    <string name="kevin">Kevin Arleo</string>
+    <string name="kevinarleo">kevinarleao</string>
+    <string name="kevin_capital">Kevin Arleo</string>
+</resources>

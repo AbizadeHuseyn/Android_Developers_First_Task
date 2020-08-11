@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/entryFragment">
+    <fragment
+        android:id="@+id/entryFragment"
+        android:name="com.example.androiddevelopersfirsttask.ui.fragments.entry.EntryFragment"
+        android:label="EntryFragment"
+        tools:layout="@layout/fragment_entry">
+        <action
+            android:id="@+id/action_entryFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.androiddevelopersfirsttask.ui.fragments.login.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_registerPartOneFragment"
+            app:destination="@id/registerPartOneFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_containerFragment"
+            app:destination="@id/containerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerPartOneFragment"
+        android:name="com.example.androiddevelopersfirsttask.ui.fragments.registerpartone.RegisterPartOneFragment"
+        android:label="RegisterPartOneFragment"
+        tools:layout="@layout/fragment_register_part_one">
+        <action
+            android:id="@+id/action_registerPartOneFragment_to_registerPartTwoFragment"
+            app:destination="@id/registerPartTwoFragment" />
+        <action
+            android:id="@+id/action_registerPartOneFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerPartTwoFragment"
+        android:name="com.example.androiddevelopersfirsttask.ui.fragments.registerparttwo.RegisterPartTwoFragment"
+        android:label="RegisterPartTwoFragment"
+        tools:layout="@layout/fragment_register_part_two">
+        <action
+            android:id="@+id/action_registerPartTwoFragment_to_containerFragment"
+            app:destination="@id/containerFragment" />
+        <argument
+            android:name="email"
+            app:argType="string" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/containerFragment"
+        android:name="com.example.androiddevelopersfirsttask.ui.fragments.container.ContainerFragment"
+        android:label="ContainerFragment"
+        tools:layout="@layout/fragment_container" />
+</navigation>
